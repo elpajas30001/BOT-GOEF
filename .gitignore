@@ -5,3 +5,4 @@ yt-dlp.exe
 .agent/
 .gemini/
 *.log
+bot_*.txt
