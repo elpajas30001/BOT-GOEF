@@ -1,0 +1,7 @@
+node_modules/
+.env
+yt-dlp.exe
+.agents/
+.agent/
+.gemini/
+*.log

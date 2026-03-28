@@ -1,0 +1,34 @@
+﻿[dotenv@17.3.1] injecting env (5) from .env -- tip: ≡ƒ¢á∩╕Å  run anywhere with `dotenvx run -- yourcommand`
+Bot listo: CDR#0944 ≡ƒñû
+Registrando comandos...
+node : (node:9428) 
+DeprecationWarning: The 
+ready event has been 
+renamed to clientReady 
+to distinguish it from 
+the gateway READY event 
+and will only emit under 
+that name in v15. Please 
+use clientReady instead.
+At line:1 char:31
++ taskkill /F /IM 
+node.exe /T ; node 
+index.js 2>&1 | Out-File 
+-Encoding ...
++                        
+       ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo       
+       : NotSpecifi    
+ed: ((node:9428) D    
+ep...tReady instea    
+d.:String) [], Rem    
+oteException
+    + FullyQualifiedEr   
+ rorId : NativeComm    
+andError
+ 
+(Use `node 
+--trace-deprecation ...` 
+to show where the 
+warning was created)
+Comandos registrados.

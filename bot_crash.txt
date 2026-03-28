@@ -1,0 +1,4370 @@
+﻿[dotenv@17.3.1] injecting env (5) from .env -- tip: ≡ƒöÉ prevent committing .env to code: https://dotenvx.com/precommit
+Bot listo: CDR#0944 ≡ƒñû
+Registrando comandos...
+node : (node:1736) 
+DeprecationWarning: 
+The ready event has 
+been renamed to 
+clientReady to 
+distinguish it from 
+the gateway READY 
+event and will only 
+emit under that name 
+in v15. Please use 
+clientReady instead.
+At line:1 char:1
++ node index.js 2>&1 | 
+Out-File -Encoding 
+utf8 bot_crash.txt
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : 
+NotSpecified:     
+((node:1736) Dep...t   
+ Ready instead.:Strin  
+  g) [], RemoteExcepti 
+   on
+    + 
+FullyQualifiedErro    
+rId : NativeCommandE   
+ rror
+ 
+(Use `node 
+--trace-deprecation 
+...` to show where the 
+warning was created)
+Comandos registrados.
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487621254008799362/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMTI1NDAwODc5OTM2MjpsNG
+5IU1Q3MHRJV042RXF1QkRya
+1dEbHlabU5KMW5XTHl4R2o3
+QzI0QUZ6eE9OTzlsUERCSmp
+6aGd1NUVNTXozMWt5VzB4TU
+x0NFpuMlUybmlZTkw0aExOd
+0o5NjR3UTVod2h1REVJdkx6
+dDJyQVFrQVVqSWExMXBia0p
+nYTJnRA/callback'
+}
+[getMetadata] Buscando: never gonna give you up
+[getMetadata] Es URL. Obteniendo info...
+[play-dl] info error: 
+This is not a YouTube 
+Watch URL
+[getMetadata] Fallback yt-dlp: never gonna give you up
+[getMetadata] Ejecutando: "C:\Users\Administrator\Desktop\CDR BOT DISCORD\yt-dlp.exe" --dump-json --no-playlist "never gonna give you up"
+[getMetadata] yt-dlp 
+sali├│ con status: 1
+Stderr yt-dlp: ERROR: 
+[generic] 'never gonna 
+give you up' is not a 
+valid URL
+
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487621279124164668/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMTI3OTEyNDE2NDY2ODpjbG
+lmZk4wbUVwZmJGbG00MUNZY
+0hUbG9zWjBFQnVhS0haeDF2
+ZVplWjFld3lCem5PdGw2UjZ
+ZSUl4dklSNXBQZ0xoU0JaTE
+1TRkJVanJQWFMxTVpURVl4b
+2tFSlBWRXpWM25OZExpcFNr
+TVFJbjBQOEhFaDJ6eW9pczE
+3RjlpeQ/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487621779752095764/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMTc3OTc1MjA5NTc2NDprT1
+VjMHhVcWFtMk5PZkV6MmdKe
+nF2OEtKbE5wa3NwdWh3Szg2
+M1JmWGNNTHVGSU1CWUhlUG1
+aMnU1R09XNnRSTzI3VUhCSW
+hXRWh4bklVUkpWMDRxRktDN
+2dNVnJyMjJMaFA3WUZLOFN3
+dUxXS1RxSHc3MHVSOWZYQUl
+QSlU1dQ/callback'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.defer
+Reply (C:\Users\Adminis
+trator\Desktop\CDR BOT 
+DISCORD\node_modules\di
+scord.js\src\structures
+\interfaces\Interaction
+Responses.js:122:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:86:13)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 5, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487621786232160367/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMTc4NjIzMjE2MDM2Nzowa1
+paak1WbjgwMVRGMnh6WXBJW
+VFoaThUSE9HQlhnZnFKc0lK
+Vk1QdmRGSk5ySGR3amtCYTh
+HWXpVbzFCMXZ5eENhVWxEOD
+FrbHVwNDBsUXJPd3FweEpkY
+U5HQ1lvaXVxQ3c1bDZkN3pL
+a3QzRGZzV2xPRFlQWVNqR2w
+2YlFaaA/callback?with_r
+esponse=false'
+}
+(node:1736) Warning: 
+Supplying "ephemeral" 
+for interaction 
+response options is 
+deprecated. Utilize 
+flags instead.
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487621785712332872/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMTc4NTcxMjMzMjg3MjpGWX
+padkZBcXZINHJ1cnFTYzFnM
+FRSY3lMcFAyU1N0RkVWOWJ3
+ZkdSOU5IWERBVUszdmVZelE
+wQmJRZ3RpYUxiVFN5QUtsaT
+ZjUEc0ZkdqdFFIdWIwTHZxc
+nBla1hTOXJ3RUlXcTlEbW4x
+ZWNhczBiNzJCQVFuTnVud01
+hQzduTA/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487622404355395625/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMjQwNDM1NTM5NTYyNTpYTW
+s2UldXOWpOVEp5Q3R4SWhSe
+FBLRW16Tm4yeGJwcGRNSTJF
+T1VmandpZHVOWkZlRHczWEl
+PRnJzTE1LMDFhbG04SWZuUk
+xVQ2RseHVkc0VFOEU1OG9wd
+VBOZVRzeFBIZ21xbjhFWUUw
+Zm1DVjJ4UGpCYXRBQVpuZVd
+5bzhKag/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.defer
+Reply (C:\Users\Adminis
+trator\Desktop\CDR BOT 
+DISCORD\node_modules\di
+scord.js\src\structures
+\interfaces\Interaction
+Responses.js:122:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:86:13)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 5, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487622437989388418/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMjQzNzk4OTM4ODQxODptc2
+ZKN29iUGoxWktjWHlGc3JmW
+nU5eFYzVExVczJlclFvazNn
+ZVp4RnA1RUluUmhDQ2s0Z3l
+td1pRVGRNQzVLeXVWZFdwOW
+s4dUp2N3k5NHFXSEphWlkyc
+G1PekJaRVNhMkFVcW5CYWVo
+NThVdEhJSTFlQ2V5YXAxanF
+OSFFYNA/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.reply
+ (C:\Users\Administrato
+r\Desktop\CDR BOT DISCO
+RD\node_modules\discord
+.js\src\structures\inte
+rfaces\InteractionRespo
+nses.js:193:22)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 4, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487622673453416458/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMjY3MzQ1MzQxNjQ1ODp2aV
+NEclFndUM1RWRPMlB0ZmZzc
+2t4SDRWMmdUT2NHR1ZFYVdz
+NTZybHBjanVBSk1zWGJKZW9
+UNWs1RWluRWU4R3dUbG5tYW
+5sV3BUVzdiNnBUNU9ZYWVQd
+GV5a0FVOG9NamlYT1hlSEZB
+R092Z1N4WXlzZHFCRUhma2t
+3VlZBQw/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487623221728772186/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMzIyMTcyODc3MjE4NjpEWE
+REQ3hSamYyTzB1UTg3eGFJZ
+GczT1FuNkxsUnZqVXdJQ0pO
+WnRxWW5kNGJSMUVpTUhQNnF
+ndlJRTHVjeGxTMW5uczdnV1
+pDdVFBY0NjaFp4WVhkSFpBN
+21ZYm1wVXo1TE92QUJvbkRj
+Q3lUZnJ3U3AzRjZ3Y3hCRHd
+vNG9vUA/callback'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.defer
+Reply (C:\Users\Adminis
+trator\Desktop\CDR BOT 
+DISCORD\node_modules\di
+scord.js\src\structures
+\interfaces\Interaction
+Responses.js:122:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:86:13)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 5, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487623286601814128/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMzI4NjYwMTgxNDEyODpRd2
+t4Qm1DZDhRd3BGclFlbGRIT
+nFaaktZZWduckVEOG1PQWNB
+RHB4b1Ftc1VocE1DNUp5Vm0
+4Q3FkaU5nNG12dVRnQndzU1
+pCWTJualRtRDFlSHdKVUdQd
+1AzaXVDYUpzV21BaVhXMEJG
+OGo2aUx2cmljblc1U1FodnR
+pWEpxRQ/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async StringSele
+ctMenuInteraction.defer
+Update (C:\Users\Admini
+strator\Desktop\CDR 
+BOT DISCORD\node_module
+s\discord.js\src\struct
+ures\interfaces\Interac
+tionResponses.js:305:22
+)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:68:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 6 } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487623356932165652/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMzM1NjkzMjE2NTY1MjpZek
+lEVVR5bE5DRmg3UUh1NTBpc
+VNqMDE3emwyVzQzSThMSVhD
+VXB0b2luYkpkSlRTNzdnakF
+1UHdIa1BqdmhjWnJneERQdF
+d6N0Z2aENmWFVMMU5vR0ZEZ
+HRVc0d2N25rOHhHeDJRR2dO
+d0FVTllqRGFjeU1ha1hIUTl
+LbWxscA/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async StringSele
+ctMenuInteraction.defer
+Update (C:\Users\Admini
+strator\Desktop\CDR 
+BOT DISCORD\node_module
+s\discord.js\src\struct
+ures\interfaces\Interac
+tionResponses.js:305:22
+)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:68:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 6 } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487623393049317406/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMzM5MzA0OTMxNzQwNjplNk
+9SS3pEYVozRm5PbzQ3aTgxQ
+XNhN01oQXpHemV0QXNZRkla
+WUVvOGkzOGdaSUVBaDhRWjN
+NYkR1MHZYZENrTVdETGREQn
+FJZVJGQ1NySVBTZ2RkMXZ2O
+E9TOEgxSDRkTExLcjcxdmxh
+WERFbEVESGpaZ2FCd3dPOGZ
+Kb0t2cg/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.reply
+ (C:\Users\Administrato
+r\Desktop\CDR BOT DISCO
+RD\node_modules\discord
+.js\src\structures\inte
+rfaces\InteractionRespo
+nses.js:193:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:100:20)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 4, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487623424615514355/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMzQyNDYxNTUxNDM1NTpLM1
+lnRjRqNHNqS1haUURnVzM0a
+TMwd3d2TlRFY2Z2M21rZWhE
+aWVtblB4SFY2bEt1VEU0eHN
+sbGxpVFhFZk53bDV1ZG1iWG
+k3UkZ5aFg1VEVrck9ya3FsM
+1p5U21wNGtDUkFSVzdodk9T
+ZnRia09icW52UVBrQVBDeXJ
+1NloxbA/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.reply
+ (C:\Users\Administrato
+r\Desktop\CDR BOT DISCO
+RD\node_modules\discord
+.js\src\structures\inte
+rfaces\InteractionRespo
+nses.js:193:22)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 4, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487623700814758040/
+aW50ZXJhY3Rpb246MTQ4NzY
+yMzcwMDgxNDc1ODA0MDpjOH
+hLNU05MGVudGNHMHhzbTNPZ
+Ec5U1RES1NBNmE1eTFsbDV5
+RVlLSGJjTTAxc0pLbExLdjh
+5Z3ptb0pBTjdVRkRFU3dBSX
+RvN004aGZ3dlN5ejR6cHVZR
+WRBdklXc21BR1RTTjlOYVlz
+blJ5UWcwSGpDZTM4ZHZ5MXh
+QZUdJVg/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487624401125117992/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNDQwMTEyNTExNzk5MjpGVk
+F1T2lGZEhmek8wSHA1Q2N6M
+kt3YkhrWWxUWE1ic1lCV1hl
+eG50NGJ3NUtRY0VYR2dZemV
+pMlNHQ3VqMzZ3dVV2b1kwbk
+E5aW9IYW9SZWpnNlROV0dNQ
+kV5c2xSSHF1TTg0VUZncE1T
+SmV4T3hXb2xxSkhSOUl6WGd
+QeTVJSQ/callback'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487624419739308153/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNDQxOTczOTMwODE1MzpqeU
+JqMTVySlRORHRlM2ZPUFk5T
+1lxeldjN3ZxQUdHWjRBM3pJ
+cnR3U3YwWUFJM3g2VXIzSVJ
+OV2V2cjNCTHcxVG5qTklCQW
+VudjRreUM4WnNxWFhxN3NWa
+FJ1ZG9nR1AwRUM1Z1RRZUxI
+VzBQNXNkVGlteWNhVlB6eGN
+lejR5bQ/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487624425598881932/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNDQyNTU5ODg4MTkzMjpMNk
+ZSQkdhYzhlRVpKS1RLU2YxR
+EZKUTdzMWpwUWhIaXBWb3pp
+Wm1SQWt2cmF4MGlTamY5NnB
+DVmM0MllUSWFQSWlZUklIbm
+tncXNnNWF1MUZ6bkNzRnZ1N
+k9YU0lLNDBqQmVablBUN0wx
+Z1gyY3NyQ3NmU0VqTU9KQzZ
+GdlJ2aw/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487624500940902451/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNDUwMDk0MDkwMjQ1MTpTMW
+lDUzNjaEV2MmQwb0FCeGtvU
+npzVnRkdFAwQkc4dXlNNlc5
+ejZPaTlLcnBUUU55dTBXbGl
+yaHFlWDk3Mkh0YWNpUjRaQ1
+dlMVE0OXZ5UXkzdk9mUGNlb
+DBOWU9xWVZBdjRVeFpQRjdw
+OHJwSnhheHhRT2lkUkxXTmt
+YaVZJbw/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487624525481771131/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNDUyNTQ4MTc3MTEzMTpGVV
+JsdEpDU3BqekEzeWtYY2k1T
+0g3REQxT0k2Tkg1ZDN3VmR3
+S0JXcXdsa0lZV1ZjRXkzeFV
+wTnJFNlpMNkYyVEpja2JOYW
+1mM0VEakRvVGlBQ3VnZmRGc
+kwxVHBlamlmOTZLYktBTHhC
+RWtNMTRERTVERm85ZVdla01
+lUWdvMg/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487624700761870406/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNDcwMDc2MTg3MDQwNjpNT0
+pkQTB6VXk5SThmUGN1UkZ2S
+XhWSG5ta05WRFlBYWlYYW5O
+S0RZUkhWZm1tOEJKbU12S1B
+jOUpsSklscHZBWTY1cGZmbW
+IzZnNsM2ZHdFgyaThzakNwN
+EdacnR4RktITzdQdzA1bk9W
+T3hXVVVkZXJxaHE5MHNwRmN
+laWkzNA/callback'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487624732739113080/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNDczMjczOTExMzA4MDpyVU
+J5U3FvajNxVkVJTDVQamQ1c
+ElQTUtRODJta1BFTnNwWWwx
+SjR1YWlKbEp1NTFocVVZNzI
+5RjF1NVlOdXkxSnNSOWl3Y0
+hSRHJTNG1EcFZoUzk2c0N0T
+HBTUTlGRmI0TmliZGlISzJQ
+ZEs0N0hVWUFCZ0ZLeEFNcFF
+OMGF2cg/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.defer
+Reply (C:\Users\Adminis
+trator\Desktop\CDR BOT 
+DISCORD\node_modules\di
+scord.js\src\structures
+\interfaces\Interaction
+Responses.js:122:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:86:13)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 5, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487624763097481427/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNDc2MzA5NzQ4MTQyNzphbF
+ZJSmtCWTNVYUtQSDlVWjV5N
+mJPbHpYWU5wcVdyQjQ4NnNh
+V3QyVlNNaUIxaGNXcGROekV
+HTk02dzdiTUFoUEMzeXhpYV
+pOczA3YmJjZkpudmp2TWY0d
+zRWNmZTNmcwY3hhRGlnamxK
+SHUwWmZkMlNNUG8zcmRSYUk
+xZXpYWA/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.reply
+ (C:\Users\Administrato
+r\Desktop\CDR BOT DISCO
+RD\node_modules\discord
+.js\src\structures\inte
+rfaces\InteractionRespo
+nses.js:193:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:100:20)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 4, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625015984914484/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTAxNTk4NDkxNDQ4NDppZm
+RiS1VMSFZmelN1VEVuMnZrT
+k1lU1JMd0oyM2xOZEJwbDU5
+OVUxOTZ4R0VDTzhUTDV6M21
+UbTk0Q3pISk91TG5vM1Y0YW
+9HRVNZMHRtajRrOWtCTXh5Q
+m5CdFRaOGM0aUhFb0JxY2Fm
+b3lxQ0lGTjN3Q0ZtMTh4Qkh
+tWlpTTg/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625440393953491/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTQ0MDM5Mzk1MzQ5MTpNc0
+10QUNZNHJBNG45MU1qSnlOO
+WxJWXpEcFlraU03SEVwNHBr
+QmlQR21XQlRTcGo1bmhrdDd
+ia2Q0V1RpQ3NXSTUzRng5Zn
+VSQTBVcmFmajM2NDF4ekVIT
+XhYQ29HZXQ0a0pIN09PSURH
+UWIwS2I3UFRJbGs3bUNNbEZ
+pd0taVw/callback'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.defer
+Reply (C:\Users\Adminis
+trator\Desktop\CDR BOT 
+DISCORD\node_modules\di
+scord.js\src\structures
+\interfaces\Interaction
+Responses.js:122:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:86:13)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 5, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625449575026768/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTQ0OTU3NTAyNjc2ODphWW
+5DYTFwTEFHTFhKWGdYbkhwb
+HN5WlVJTG9odHVabTVpcDRM
+WlhLT1RHRTNzQ0Rpa1BPdkt
+0YnFhdXM0Skk5bDhmVmlLSn
+BOdXhmMmNKRzh6TzNHTVVIM
+jgzdlZhNG9oZFh0bll4RFZS
+VEd1UFc3T0pXZm8zRnR0Zkx
+lbERNdg/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625482991046726/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTQ4Mjk5MTA0NjcyNjo2d3
+REREJCUDhJSkZTZEYwQ2lxV
+nh4d0wxQ0NFUzA5QzJ6VXN2
+dHNXRDd1d1V3VWp5RmZnRzk
+3bFJuY2hieUZuTkQ3NlZQel
+BtNXUxMjBaUkd0bTlqQ2owM
+zNmejZnUDlTbEdZVFQ5ZnNw
+aUNRd24zcVZ3bm1jODlNb1Z
+UbDBGaA/callback'
+}
+Error interacci├│n: 
+TypeError: Cannot read 
+properties of 
+undefined (reading 
+'browseId')
+    at parseVideo (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\nod
+e_modules\play-dl\dist\
+index.js:7:21007)
+    at 
+ParseSearchResult (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\nod
+e_modules\play-dl\dist\
+index.js:7:18943)
+    at yt_search (C:\Us
+ers\Administrator\Deskt
+op\CDR BOT DISCORD\node
+_modules\play-dl\dist\i
+ndex.js:7:23336)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Object.search (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\play-dl\dist\inde
+x.js:15:3346)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:17:33)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: 
+TypeError: Cannot read 
+properties of 
+undefined (reading 
+'browseId')
+    at parseVideo (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\nod
+e_modules\play-dl\dist\
+index.js:7:21007)
+    at 
+ParseSearchResult (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\nod
+e_modules\play-dl\dist\
+index.js:7:18943)
+    at yt_search (C:\Us
+ers\Administrator\Deskt
+op\CDR BOT DISCORD\node
+_modules\play-dl\dist\i
+ndex.js:7:23336)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Object.search (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\play-dl\dist\inde
+x.js:15:3346)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:17:33)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625496912072765/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTQ5NjkxMjA3Mjc2NTpBRV
+E0MTRzalVwa3dzcXdWRXJvN
+1RnTURmd1VWVDU3cDlaMURa
+Q1FiQ3VWUDFjRnZ1Z3RnTDh
+ORVlKVDlTUk83RjliZGQ4TH
+RhcVZtRHBYR2pPVnVRc3Y4d
+WFsYTdZS2c0Qkd3ZG1HUFVk
+TnpVVWNZMVFOTXVmV0gzYTB
+LOENMUg/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625497289556149/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTQ5NzI4OTU1NjE0OTpXem
+ZwZWNmaGVvNjkxaUZZOWtJN
+zN4Szg3aktRVHVydUlZd2NU
+UDNsTW1lM0hRVlk0Nm9LTmZ
+INTFvVm9ObmVLbXFDMWJCbU
+FmdDlsY2FBYzRJWHF1Y3Z6M
+XVzbXgzT2F2RjhWczhwTG5V
+bTRkQXpxNFluUWtBc3NyaVB
+rdjA5Sw/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.defer
+Reply (C:\Users\Adminis
+trator\Desktop\CDR BOT 
+DISCORD\node_modules\di
+scord.js\src\structures
+\interfaces\Interaction
+Responses.js:122:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:86:13)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 5, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625514272296971/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTUxNDI3MjI5Njk3MTpiWj
+I1RGdQd3p3bjRNR05jdFFIO
+DNOZm5QUkQzNGpNN3k1MlhK
+M2d1eVBJT1FtVGg0RkxQdjd
+JajRPRzJoaTRZWlcwYjc1Yz
+Q1Rll0dEFFc2VrNnhPT3lyM
+0xkblM1dXBRTWxtWnhjTzdS
+VkdUTGR6dkp0d0NxSVMxWXJ
+WWmx6dw/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625651220517086/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTY1MTIyMDUxNzA4NjpKeX
+l6VWJDM1NuWmVqOWNOSWxkd
+214bFJZYXMyRHJ1WEsySHZv
+bUZvTUliOXRIUzNvV1U3dWt
+zUDRhWXlYd2ZTRHBkUUl6Mz
+lMZzFxbnJGUjlUZ2ZQYkZDS
+WJXVmRvMjBwa01KMEdXdW91
+VXhta0FFUXNmWXFVVWFjRnd
+vaFllVQ/callback'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625661500620820/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTY2MTUwMDYyMDgyMDprc0
+10V01QWjNVYlNoT3d1YkNKR
+EhIcGpUTWVXVno5SHBvMHg0
+Z3ZLVUFBRFhSd3I2NEg5T09
+QYXdGbk9SSWczQ1hGQ0dLRk
+tiOHFYNmpKWmljVEl2Zm1nO
+E9zUklPVmk4Tk5JSnpiTjlx
+WEp3bDdlazVXa0szM0dNd0x
+hQnNScg/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625665950777344/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTY2NTk1MDc3NzM0NDpGZ0
+M0SHpvMWVYQWNFSzBrd3pLT
+2xrQWhTVWE2QVE4WllsSTJV
+dmhleDVoR3E5c2VVTmI0Q3R
+FaGR1OWJjUTZpT1NGdXRneD
+FqTDhZRnRWdUZRc2NsRnRRO
+WMzU2lQQmJkMlM1dlE2SUs1
+MkxEMUNvdkRYcFNTSXRIcHc
+2MDBkMA/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625666441515008/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTY2NjQ0MTUxNTAwODpWTT
+lxeXJheVpRZkpJdU1lb3ptb
+zlpNlBUSU9PU2lmR0FzV0x0
+RzFwQVFjYVFXOXhwSkRjQ3B
+nR2tyTHlzUE9MaERXeU5oM3
+dmaWdJUVQwU2RJTGN4RGM5e
+HhqaUpVeUZ6N1lmS01HT3N4
+N3lzdm5TTkRNcHhzTGIwZTR
+3T0lvNA/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625661534306344/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTY2MTUzNDMwNjM0NDpMQn
+VGbEY2MmZzUGdleHBINTlnV
+UljQjhDM0NkaGtPYjBuZnR6
+RWwwcW42ZlhBbDB1a2NybVJ
+5UnNjWk9QM1hWTHdoYmc1NW
+FyNTZPT2JqOEJWdU9NbzluS
+Tk4N3JNNXRzeVhYU3Fra0tW
+MUdQOTRodEpBc2p4VWlDTHF
+GRFdidw/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.defer
+Reply (C:\Users\Adminis
+trator\Desktop\CDR BOT 
+DISCORD\node_modules\di
+scord.js\src\structures
+\interfaces\Interaction
+Responses.js:122:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:86:13)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 5, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487625678848262174/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNTY3ODg0ODI2MjE3NDpoMG
+VjMkJScVdHRHVaM0JqUWFyc
+FVFSEZ3YmRrbTlsYXFyR1pk
+QmtEMFk1U0p6NFhKUjh1anR
+ibVcyRjhqcmxubFhlTHp2Zm
+ZjaE9jSjNKN3ZxU2FrN2p3Q
+01LQ3JheklFQU44Q3JSekhW
+SUxLVk5GaVRSTThHUU9qVlJ
+pUVRsOQ/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626460851077270/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjQ2MDg1MTA3NzI3MDpGVD
+B0Vkx1ZDBkeFo2dThFTlpmT
+khZemV1Rks1UEFjalF5MERT
+aFlHdHJ3VWFqd285Z0VaQ0o
+zbDJrOUlGcFFEMkhMV0tHa2
+1sV01tdEN0RXVsR3JPTk1XU
+GpseENWZjRDV0FFaXhHU0ty
+eVFjZ25idlZtaFVGZXRqakp
+hSWlGTA/callback'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626491243270268/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjQ5MTI0MzI3MDI2ODo4Qm
+VhYjlodFJKM1FZc1lHU3BrR
+EZzRjl0Vm5ZdE9vTmdYY3hX
+R0FUVGRhd2RyaWtCNU5ucU9
+YOXVQNmJhb1ZZNVJyQ1pjU2
+RzZFRUVzhyNUlpSUxhcTFiQ
+lVLaFJsaTc5U2lvbUtaNDZU
+Q2M3anlsTWdlaDhnbGYyWm1
+qblJXNg/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.defer
+Reply (C:\Users\Adminis
+trator\Desktop\CDR BOT 
+DISCORD\node_modules\di
+scord.js\src\structures
+\interfaces\Interaction
+Responses.js:122:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:86:13)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 5, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626591918886972/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjU5MTkxODg4Njk3MjpucH
+FLb0M3ZWhKMm5DaUV6T2ZzO
+DZNcWFkVkllZnBiMWltMzdz
+b0p6OE1mQU45UGtlejJZNjJ
+uanEzbjE2MUFjTFFlRm1Hd2
+R6Q0tFODFOazdaWjJUWEo5Z
+E51OUhKSllPZ2dMaFNDdU5S
+NFNGaGRJS2Jrc2dQd2JUWkF
+YQVhxcQ/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626665990295752/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjY2NTk5MDI5NTc1MjpJSk
+VMczYwNEhrMVUwWTRxVUtRV
+zh6MVRMa1UxQWFCckMwVHVx
+TXBvZjYyUEd5OTJrTGc5YmU
+yQ29SNTMzWkUxVVBhR2J5V2
+xWSDJpblZsdlBYYklraFZhe
+mxWWng0RDVWblgwOXhpRnp0
+YTQxcmNlczVrWUZNS3ZNUzJ
+kSTBEOA/callback'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626674374967427/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjY3NDM3NDk2NzQyNzpEM3
+JIVUxISUdZTlJpdEZxajdYU
+mxJakEwc2w2cjVScnZwN0Uw
+aWkzMklWT1ptbXF6QlA1ekF
+4WTlYR2E3TEpWQmtpd2FESE
+dWZ1A0dW5ubFlDUGdSeHp5V
+1hjY2Y5alEzanNhamRxQmJJ
+Unp4QmNPR20xZ3JhSjY1ZUF
+ubGhBVw/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626681102630952/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjY4MTEwMjYzMDk1Mjo1VD
+lMUktFcnc0bGZaSjBQblA4b
+Vp2MVQwY3hkUU5raFhjRTE5
+MjFSNngxam5kS0MyTVZFOVB
+FZ2JBUUhId1d3bzVQNkdZOV
+B1eVI1MjRHSklDRGx1Q2ZBR
+2pjQTFidXY4RVUwTVdIckJO
+Q2owcG1qb2d3ZnUzdjI2akQ
+xVzVxRQ/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626681140248626/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjY4MTE0MDI0ODYyNjp0Ml
+h1RHhyZmhFTnh5RGcyRW1JQ
+lZiMzk1UmJGbElSR2pQdWdF
+b2FPOVd2ZTRxRjR4VDlSbmN
+1VlBUYmxTNHpMaGExN2RxZU
+1oVHlNRGdjU0RHbHRXdnpsZ
+lNFcUlSQ01XWFdVd3BpUlBp
+cDU1Nk9CR3BJTU92VjV1TEJ
+GWFp5VA/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626686873731084/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjY4Njg3MzczMTA4NDpZST
+hFdXh2MkZUaEJINVZDdWpmY
+jgyWmxDYWtoa1duRVRidzM1
+TTZ4RHpYZGcxRGdrbVpDS0t
+sN003M3pXWmdBU3dYU21RbW
+lRYlZTUnFvclRrb2RZOVFJN
+G5Kc1FKcmxtWXFjR0hURGgw
+cnhGcG1NelpGSnlXYWV0STR
+6a21Zdw/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async Autocomple
+teInteraction.respond (
+C:\Users\Administrator\
+Desktop\CDR BOT DISCORD
+\node_modules\discord.j
+s\src\structures\Autoco
+mpleteInteraction.js:86
+:5)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:18:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 8, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626686743838773/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjY4Njc0MzgzODc3MzpVdW
+s5RUtlWW1IRXVMc21sSnJ3c
+nhZUFZYd2JWWEdqUmtYNmVX
+OE9TMDRBZ0paQ2tiQTl4bkh
+6cDNibVRneEJiM0JmYlo5Un
+ZhMEFHYU1iTENla2pOd0tGZ
+FMyTmM2VlRJeldjVVh3bTla
+M0Q1VkZnZU5iUkxpUGFwNll
+FOGdtZg/callback'
+}
+Error interacci├│n: 
+TypeError: 
+interaction.reply is 
+not a function
+    at 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:214:32)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9)
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ChatInputC
+ommandInteraction.defer
+Reply (C:\Users\Adminis
+trator\Desktop\CDR BOT 
+DISCORD\node_modules\di
+scord.js\src\structures
+\interfaces\Interaction
+Responses.js:122:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:86:13)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 5, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626700790562816/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjcwMDc5MDU2MjgxNjpFVH
+EzbWhEMkpOQk1YYlJlQkY2Y
+2hkVDhBVmpDR1M4bTJ0SU1D
+SVI2TENkSnFUWUxvdDNrdnN
+hUURQaEdhcnRYYVFjVHJwNE
+lqZG40SWR2Z0M2OEc0WU42R
+WExOXNXdkc3OGh6a1o5b2hQ
+V2oyTFFMc3poZlFaZ3NYeEN
+ETE41Vw/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.deferUpdate (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\discord.js\
+src\structures\interfac
+es\InteractionResponses
+.js:305:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:59:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 6 } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626747074576507/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjc0NzA3NDU3NjUwNzpNN3
+p2MDdkdW04NUVuOXo0eHVNa
+jZKRnNBOU56TlVocXo5S0li
+OTlWSFYyMU11dnVyd3ZVcHF
+EM1hKaVZXamRxQk9pbkVncG
+lRS1JyaDVPWTBPZHZ2dVUwY
+WloMGtEUVJPdUJQbG94YVZa
+THFxeVZnbFhON0pxVU9RdVg
+xaGdEYQ/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.deferUpdate (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\discord.js\
+src\structures\interfac
+es\InteractionResponses
+.js:305:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:59:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 6 } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626764334141611/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjc2NDMzNDE0MTYxMTpHbE
+k2YjM0NEx3WWF2WE5LWVV3S
+nZiQ3lBakk0azFxMEtWUGZL
+WHNXcmszRWM2UVQ5Mkw3MEt
+4WTdLQXZvNW5aZTVxSzI3TD
+huWVdjbEpXN2dqcWJoSTF3M
+kxmbHA0aTBzVWh1VkxLek9j
+c3NGUHVwVVJrWkZSMGw5c3E
+3aWxDZQ/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.update (C:\User
+s\Administrator\Desktop
+\CDR BOT DISCORD\node_m
+odules\discord.js\src\s
+tructures\interfaces\In
+teractionResponses.js:3
+54:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:39:28)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 7, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626768746676324/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjc2ODc0NjY3NjMyNDpZTm
+pUdFo3bWhiTkFYSjllczRpW
+UVOVnE3TWlqY1hnTk1SOG4x
+MjRPTGszaUhxRWNtbzJkdU5
+PMVBiV2dsbVB3QkF6eFJxS3
+dOWm9HUDhSRUJoSlNRRXY3Z
+UI3aWNQOGdwVDdrdTN0ZHdj
+Q3lxSVc3V2lRV1lIRUk3bmZ
+YMWJDTA/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.update (C:\User
+s\Administrator\Desktop
+\CDR BOT DISCORD\node_m
+odules\discord.js\src\s
+tructures\interfaces\In
+teractionResponses.js:3
+54:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:39:28)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 7, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626832764338307/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjgzMjc2NDMzODMwNzpHWW
+9QQzFtYWJjMFZWODBST0RWa
+Ux0c1d4eUl5S2VMU0tJcTlh
+RVFFTEo0MEtvb2NkYU8xTFg
+xODBTZTM2OTNKa3lPNzduUk
+lPWm1kMVRiVXFmT2JBRXF1b
+VcxdFREbnlETjJZOHBCcE83
+cEs5OUZRanRsYWxHUjJCTEN
+ZbHY1NA/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.reply (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\discord.js\src\st
+ructures\interfaces\Int
+eractionResponses.js:19
+3:22)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 4, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626854012682402/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjg1NDAxMjY4MjQwMjpiSk
+Y2MEZBZ2pKWGRIcEkyZm5KZ
+nllYXJUMDlPMWJBc01YNFdO
+ZkNVemFkV2Q2RWdMc2dZY01
+aV1FXMzhqNnpNNlltVmNFcT
+IwcGJ1OFMwellWV2xseWVGa
+m92dWlnakdtcjNnOGNYT2Uy
+SFFCbkM3QUt1MDNEQVNSWWk
+0OGl2Ug/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.reply (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\discord.js\src\st
+ructures\interfaces\Int
+eractionResponses.js:19
+3:22)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 4, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626872958222489/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjg3Mjk1ODIyMjQ4OTpiSW
+hLVXdiZ0FDc3Z0RnVORGtIV
+nc5eHlFV2lxY2NmWEFpdkVy
+ZjhLbXlISHhrQU53cHdGVHZ
+selhraFJaWnU5bXNZVW5lOE
+9RQnZYT0FleXZuOHZudnpVN
+WxjWDlOWDVLZDNWS252V2VI
+c05WclVUWjZ1ZFJEUXM3YUl
+DQklQMg/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[40060]: 
+Interaction has 
+already been 
+acknowledged.
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.update (C:\User
+s\Administrator\Desktop
+\CDR BOT DISCORD\node_m
+odules\discord.js\src\s
+tructures\interfaces\In
+teractionResponses.js:3
+54:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:39:28)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 7, data: 
+[Object] } },
+  rawError: {
+    message: 
+'Interaction has 
+already been 
+acknowledged.',
+    code: 40060
+  },
+  code: 40060,
+  status: 400,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626878671130675/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjg3ODY3MTEzMDY3NTo1TG
+s2c3hzVkk4QUV5ZzFJdGJ3U
+k9mTkR4aXJ0Q2xVdmJVbEY2
+RHZETEhnaXQ3dDJrMEZwdjZ
+yQkJzY0ozNUZ2MkZJaEpIV0
+NHcEZBaUJTRWhaelZmTHhnV
+GhvT0I2dUV1OXFva3ZPbnFY
+WXJQZFN4UXZzdWx0MWRTbXR
+Ja3pMeQ/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.deferUpdate (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\discord.js\
+src\structures\interfac
+es\InteractionResponses
+.js:305:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:59:24)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: undefined, 
+json: { type: 6 } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626891392454687/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjg5MTM5MjQ1NDY4NzpJOF
+V5S1NpZkNIUUlybEU1cTMxa
+m9qenA3ZEtUbHhYdkpPOHUw
+Q2FsTGluMFlMWmhXcHo2dUd
+POUdjWHhSSEs0dHVKQWRwZX
+BUME9vNVVlejVPd2VyZ1Z0R
+1FBcTFPRmhtTG5EeUlENGFX
+aDB0UkNGSlU2WFBTWWlnRTl
+SUHBITA/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.update (C:\User
+s\Administrator\Desktop
+\CDR BOT DISCORD\node_m
+odules\discord.js\src\s
+tructures\interfaces\In
+teractionResponses.js:3
+54:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:39:28)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 7, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626907074826271/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjkwNzA3NDgyNjI3MTpHYk
+xJdUJRR0VHc0NGZmhSSTdsY
+3RPSjF1cjNIelY2cU5CdTJu
+OXd4NHNzcFlaN2liaEVQSUR
+VMDNrbG52ZDA2TjdRV1pLUU
+5LZkJQMmRUZ29velMwMUZXR
+XRBUU1yUTduN09sdzhUeE1q
+bGtHUzViY0t5NFlTZHNnZGl
+xRW5kbg/callback?with_r
+esponse=false'
+}
+Error interacci├│n: Dis
+cordAPIError[10062]: 
+Unknown interaction
+    at handleErrors (C:
+\Users\Administrator\De
+sktop\CDR BOT DISCORD\n
+ode_modules\@discordjs\
+rest\dist\index.js:762:
+13)
+    at process.processT
+icksAndRejections (node
+:internal/process/task_
+queues:104:5)
+    at async BurstHandl
+er.runRequest (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:866:23)
+    at async 
+_REST.request (C:\Users
+\Administrator\Desktop\
+CDR BOT DISCORD\node_mo
+dules\@discordjs\rest\d
+ist\index.js:1307:22)
+    at async ButtonInte
+raction.update (C:\User
+s\Administrator\Desktop
+\CDR BOT DISCORD\node_m
+odules\discord.js\src\s
+tructures\interfaces\In
+teractionResponses.js:3
+54:22)
+    at async 
+handleInteraction (C:\U
+sers\Administrator\Desk
+top\CDR BOT DISCORD\int
+eractions.js:39:28)
+    at async 
+Client.<anonymous> (C:\
+Users\Administrator\Des
+ktop\CDR BOT 
+DISCORD\index.js:28:9) 
+{
+  requestBody: { 
+files: [], json: { 
+type: 7, data: 
+[Object] } },
+  rawError: { message: 
+'Unknown interaction', 
+code: 10062 },
+  code: 10062,
+  status: 404,
+  method: 'POST',
+  url: 'https://discord
+.com/api/v10/interactio
+ns/1487626932819460207/
+aW50ZXJhY3Rpb246MTQ4NzY
+yNjkzMjgxOTQ2MDIwNzplek
+V0UjBFbno2d2t0eGdIczJQa
+05GVnRvMnBkemdPOVpIV0FL
+bWNhc0RKeUFRbGtPeGNDM3p
+5V0VJSnpZT2lxZWM5R2ZTMD
+IyZnR0djF3ZmlYa2pRRUNrQ
+XZNeGRadzFWVnM1UmlpcWt2
+ckEzWnREcjJ2cWlkTGRNVml
+nOFpraw/callback?with_r
+esponse=false'
+}

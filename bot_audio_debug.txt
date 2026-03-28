@@ -1,0 +1,248 @@
+﻿[dotenv@17.3.1] injecting env (5) from .env -- tip: ΓÜí∩╕Å secrets for agents: https://dotenvx.com/as2
+Bot listo: CDR#0944 ≡ƒñû
+Registrando comandos...
+node : (node:8144) 
+DeprecationWarning: The 
+ready event has been 
+renamed to clientReady 
+to distinguish it from 
+the gateway READY event 
+and will only emit under 
+that name in v15. Please 
+use clientReady instead.
+At line:1 char:31
++ taskkill /F /IM 
+node.exe /T ; node 
+index.js 2>&1 | Out-File 
+-Encoding ...
++                        
+       ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo       
+       : NotSpecified:   
+  ((node:8144) Dep...t   
+ Ready instead.:Strin    
+g) [], RemoteExcepti    
+on
+    + FullyQualifiedErro 
+   rId : NativeCommandE  
+  rror
+ 
+(Use `node 
+--trace-deprecation ...` 
+to show where the 
+warning was created)
+Comandos registrados.
+[getMetadata] Buscando: https://www.youtube.com/watch?v=o0-nPwNjk6w
+[getMetadata] Es URL. Obteniendo info...
+(node:8144) [DEP0190] 
+DeprecationWarning: 
+Passing args to a child 
+process with shell 
+option true can lead to 
+security 
+vulnerabilities, as the 
+arguments are not 
+escaped, only 
+concatenated.
+[FFMPEG Stderr] ffmpeg version 6.1.1-essentials_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable-d3d11va --enable-libvpl --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband
+  libavutil      58. 29.100 / 58. 29.100
+  libavcodec     60. 31.102 / 60. 31.102
+  libavformat    60. 16.100 / 60. 16.100
+  libavdevice    60.  3.100 / 60.  3.100
+  libavfilter     9. 12.100 /  9. 12.100
+  libswscale      7.  5.100 /  7.  5.100
+  libswresample   4. 12.100 /  4. 12.100
+  libpostproc    57.  3.100 / 57.  3.100
+
+[yt-dlp Stderr] [youtube] Extracting URL: https://www.youtube.com/watch?v=o0-nPwNjk6w
+
+[yt-dlp Stderr] [youtube] o0-nPwNjk6w: Downloading webpage
+
+[yt-dlp Stderr] WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+
+[yt-dlp Stderr] [youtube] o0-nPwNjk6w: Downloading android vr player API JSON
+
+[yt-dlp Stderr] [info] o0-nPwNjk6w: Downloading 1 format(s): 251
+
+[yt-dlp Stderr] [download] Destination: -
+
+[yt-dlp Stderr] 
+[download]   0.0% of    2.96MiB at  Unknown B/s ETA Unknown
+[yt-dlp Stderr] 
+[download]   0.1% of    2.96MiB at    2.92MiB/s ETA 00:01  
+[yt-dlp Stderr] 
+[download]   0.2% of    2.96MiB at    3.41MiB/s ETA 00:00
+[yt-dlp Stderr] 
+[download]   0.5% of    2.96MiB at    7.31MiB/s ETA 00:00
+[FFMPEG Stderr] Input #0, matroska,webm, from 'pipe:0':
+  Metadata:
+    encoder         : google/video-file
+  Duration: 00:03:02.84, start: -0.007000, bitrate: N/A
+
+[FFMPEG Stderr]   Stream #0:0(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+
+[FFMPEG Stderr] Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> pcm_s16le (native))
+
+[FFMPEG Stderr] Output #0, s16le, to 'pipe:1':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Stream #0:0(eng): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s
+[Playback] Recibiendo datos... (1)
+[FFMPEG Stderr]  (default)
+    Metadata:
+      encoder         : Lavc60.31.102 pcm_s16le
+size=       0kB time=00:00:00.00 bitrate=   0.0kbits/s speed=N/A    
+[yt-dlp Stderr] 
+[download]   1.0% of    2.96MiB at    2.27MiB/s ETA 00:01
+[download]   2.1% of    2.96MiB at    2.91MiB/s ETA 00:00
+[yt-dlp Stderr] 
+[download]   4.2% of    2.96MiB at    3.88MiB/s ETA 00:00
+[yt-dlp Stderr] 
+[download]   8.4% of    2.96MiB at    4.98MiB/s ETA 00:00
+[FFMPEG Stderr] size=     423kB time=00:00:02.28 bitrate=1517.8kbits/s speed=3.08x    
+[FFMPEG Stderr] size=     550kB time=00:00:02.96 bitrate=1522.0kbits/s speed=2.06x    
+[FFMPEG Stderr] size=     678kB time=00:00:03.64 bitrate=1524.6kbits/s speed=1.72x    
+[FFMPEG Stderr] size=     805kB time=00:00:04.32 bitrate=1526.4kbits/s speed=1.55x    
+[FFMPEG Stderr] size=     933kB time=00:00:05.00 bitrate=1527.7kbits/s speed=1.44x    
+[FFMPEG Stderr] size=    1064kB time=00:00:05.70 bitrate=1528.7kbits/s speed=1.37x    
+[FFMPEG Stderr] size=    1191kB time=00:00:06.38 bitrate=1529.5kbits/s speed=1.32x    
+[FFMPEG Stderr] size=    1319kB time=00:00:07.06 bitrate=1530.1kbits/s speed=1.28x    
+[FFMPEG Stderr] size=    1446kB time=00:00:07.74 bitrate=1530.6kbits/s speed=1.25x    
+[FFMPEG Stderr] size=    1574kB time=00:00:08.42 bitrate=1531.1kbits/s speed=1.22x    
+[FFMPEG Stderr] size=    1701kB time=00:00:09.10 bitrate=1531.4kbits/s speed=1.18x    
+[FFMPEG Stderr] size=    1829kB time=00:00:09.78 bitrate=1531.8kbits/s speed=1.18x    
+[FFMPEG Stderr] size=    1960kB time=00:00:10.48 bitrate=1532.0kbits/s speed=1.17x    
+[FFMPEG Stderr] 
+[FFMPEG Stderr] size=    2088kB time=00:00:11.16 bitrate=1532.3kbits/s speed=1.16x    
+[FFMPEG Stderr] size=    2215kB time=00:00:11.84 bitrate=1532.5kbits/s speed=1.15x    
+[FFMPEG Stderr] 
+[FFMPEG Stderr] size=    2343kB time=00:00:12.52 bitrate=1532.7kbits/s speed=1.14x    
+[yt-dlp Stderr] 
+[download]  16.9% of    2.96MiB at   46.35KiB/s ETA 00:54
+[FFMPEG Stderr] size=    2470kB time=00:00:13.20 bitrate=1532.9kbits/s speed=1.13x    
+[FFMPEG Stderr] size=    2598kB time=00:00:13.88 bitrate=1533.0kbits/s speed=1.12x    
+[FFMPEG Stderr] size=    2725kB time=00:00:14.56 bitrate=1533.2kbits/s speed=1.11x    
+[FFMPEG Stderr] size=    2853kB time=00:00:15.24 bitrate=1533.3kbits/s speed= 1.1x    
+[FFMPEG Stderr] size=    2984kB time=00:00:15.94 bitrate=1533.4kbits/s speed=1.11x    
+[FFMPEG Stderr] size=    3111kB time=00:00:16.62 bitrate=1533.5kbits/s speed=1.09x    
+[FFMPEG Stderr] size=    3239kB time=00:00:17.30 bitrate=1533.6kbits/s speed= 1.1x    
+[FFMPEG Stderr] size=    3366kB time=00:00:17.98 bitrate=1533.7kbits/s speed=1.09x    
+[FFMPEG Stderr] size=    3494kB time=00:00:18.66 bitrate=1533.8kbits/s speed=1.09x    
+[FFMPEG Stderr] size=    3621kB time=00:00:19.34 bitrate=1533.9kbits/s speed=1.08x    
+[FFMPEG Stderr] 
+[FFMPEG Stderr] size=    3749kB time=00:00:20.02 bitrate=1533.9kbits/s speed=1.08x    
+[FFMPEG Stderr] size=    3880kB time=00:00:20.72 bitrate=1534.0kbits/s speed=1.08x    
+[yt-dlp Stderr] 
+[download]  21.1% of    2.96MiB at   33.29KiB/s ETA 01:11
+[FFMPEG Stderr] size=    4008kB time=00:00:21.40 bitrate=1534.1kbits/s speed=1.08x    
+[FFMPEG Stderr] 
+[FFMPEG Stderr] size=    4135kB time=00:00:22.08 bitrate=1534.1kbits/s speed=1.07x    
+[FFMPEG Stderr] size=    4263kB time=00:00:22.76 bitrate=1534.2kbits/s speed=1.07x    
+[FFMPEG Stderr] size=    4390kB time=00:00:23.44 bitrate=1534.2kbits/s speed=1.07x    
+[FFMPEG Stderr] size=    4518kB time=00:00:24.12 bitrate=1534.3kbits/s speed=1.07x    
+[FFMPEG Stderr] size=    4645kB time=00:00:24.80 bitrate=1534.3kbits/s speed=1.07x    
+[yt-dlp Stderr] 
+[download]  23.2% of    2.96MiB at   30.20KiB/s ETA 01:17
+[FFMPEG Stderr] size=    4773kB time=00:00:25.48 bitrate=1534.4kbits/s speed=1.06x    
+[FFMPEG Stderr] size=    4904kB time=00:00:26.18 bitrate=1534.4kbits/s speed=1.06x    
+[FFMPEG Stderr] size=    5031kB time=00:00:26.86 bitrate=1534.5kbits/s speed=1.06x    
+[FFMPEG Stderr] size=    5159kB time=00:00:27.54 bitrate=1534.5kbits/s speed=1.06x    
+[FFMPEG Stderr] size=    5286kB time=00:00:28.22 bitrate=1534.5kbits/s speed=1.06x    
+[FFMPEG Stderr] size=    5414kB time=00:00:28.90 bitrate=1534.6kbits/s speed=1.06x    
+[yt-dlp Stderr] 
+[download]  24.3% of    2.96MiB at   26.85KiB/s ETA 01:25
+[yt-dlp Stderr] 
+[download]  24.8% of    2.96MiB at   27.43KiB/s ETA 01:23
+[FFMPEG Stderr] size=    5541kB time=00:00:29.58 bitrate=1534.6kbits/s speed=1.05x    
+[FFMPEG Stderr] size=    5669kB time=00:00:30.26 bitrate=1534.6kbits/s speed=1.05x    
+[FFMPEG Stderr] size=    5800kB time=00:00:30.96 bitrate=1534.7kbits/s speed=1.05x    
+[FFMPEG Stderr] size=    5928kB time=00:00:31.64 bitrate=1534.7kbits/s speed=1.05x    
+[FFMPEG Stderr] size=    6055kB time=00:00:32.32 bitrate=1534.7kbits/s speed=1.05x    
+[yt-dlp Stderr] 
+[download]  25.9% of    2.96MiB at   25.16KiB/s ETA 01:29
+[yt-dlp Stderr] 
+[download]  26.4% of    2.96MiB at   25.68KiB/s ETA 01:26
+[yt-dlp Stderr] 
+[download]  27.4% of    2.96MiB at   26.70KiB/s ETA 01:22
+[FFMPEG Stderr] size=    6183kB time=00:00:33.00 bitrate=1534.7kbits/s speed=1.05x    
+[FFMPEG Stderr] size=    6310kB time=00:00:33.68 bitrate=1534.8kbits/s speed=1.05x    
+[FFMPEG Stderr] size=    6438kB time=00:00:34.36 bitrate=1534.8kbits/s speed=1.05x    
+[Playback] Recibiendo datos... (101)
+[FFMPEG Stderr] size=    6565kB time=00:00:35.04 bitrate=1534.8kbits/s speed=1.05x    
+[FFMPEG Stderr] size=    6693kB time=00:00:35.72 bitrate=1534.8kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    6824kB time=00:00:36.42 bitrate=1534.9kbits/s speed=1.04x    
+[yt-dlp Stderr] 
+[download]  29.5% of    2.96MiB at   25.66KiB/s ETA 01:23
+[FFMPEG Stderr] size=    6951kB time=00:00:37.10 bitrate=1534.9kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    7079kB time=00:00:37.78 bitrate=1534.9kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    7206kB time=00:00:38.46 bitrate=1534.9kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    7334kB time=00:00:39.14 bitrate=1534.9kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    7461kB time=00:00:39.82 bitrate=1535.0kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    7589kB time=00:00:40.50 bitrate=1535.0kbits/s speed=1.04x    
+[yt-dlp Stderr] 
+[download]  30.6% of    2.96MiB at   23.78KiB/s ETA 01:28
+[yt-dlp Stderr] 
+[download]  31.1% of    2.96MiB at   24.19KiB/s ETA 01:26
+[FFMPEG Stderr] size=    7720kB time=00:00:41.20 bitrate=1535.0kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    7848kB time=00:00:41.88 bitrate=1535.0kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    7975kB time=00:00:42.56 bitrate=1535.0kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    8103kB time=00:00:43.24 bitrate=1535.0kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    8230kB time=00:00:43.92 bitrate=1535.1kbits/s speed=1.04x    
+[yt-dlp Stderr] 
+[download]  32.2% of    2.96MiB at   22.81KiB/s ETA 01:30
+[yt-dlp Stderr] 
+[download]  32.7% of    2.96MiB at   23.19KiB/s ETA 01:27
+[yt-dlp Stderr] 
+[download]  33.8% of    2.96MiB at   23.94KiB/s ETA 01:23
+[FFMPEG Stderr] size=    8358kB time=00:00:44.60 bitrate=1535.1kbits/s speed=1.04x    
+[FFMPEG Stderr] size=    8485kB time=00:00:45.28 bitrate=1535.1kbits/s speed=1.03x    
+[FFMPEG Stderr] size=    8613kB time=00:00:45.96 bitrate=1535.1kbits/s speed=1.03x    
+[FFMPEG Stderr] size=    8744kB time=00:00:46.66 bitrate=1535.1kbits/s speed=1.03x    
+[FFMPEG Stderr] size=    8871kB time=00:00:47.34 bitrate=1535.1kbits/s speed=1.03x    
+[FFMPEG Stderr] size=    8999kB time=00:00:48.02 bitrate=1535.1kbits/s speed=1.03x    
+[yt-dlp Stderr] 
+[download]  35.9% of    2.96MiB at   23.39KiB/s ETA 01:23
+[FFMPEG Stderr] size=    9126kB time=00:00:48.70 bitrate=1535.1kbits/s speed=1.03x    
+[FFMPEG Stderr] size=    9254kB time=00:00:49.38 bitrate=1535.2kbits/s speed=1.03x    
+[FFMPEG Stderr] size=    9381kB time=00:00:50.06 bitrate=1535.2kbits/s speed=1.03x    
+[FFMPEG Stderr] size=    9509kB time=00:00:50.74 bitrate=1535.2kbits/s speed=1.03x    
+[FFMPEG Stderr] size=    9640kB time=00:00:51.44 bitrate=1535.2kbits/s speed=1.03x    
+[yt-dlp Stderr] 
+[download]  36.9% of    2.96MiB at   22.27KiB/s ETA 01:25
+[yt-dlp Stderr] 
+[download]  37.5% of    2.96MiB at   22.59KiB/s ETA 01:23
+[FFMPEG Stderr] size=    9768kB time=00:00:52.12 bitrate=1535.2kbits/s speed=1.03x    
+[FFMPEG Stderr] size=    9895kB time=00:00:52.80 bitrate=1535.2kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   10023kB time=00:00:53.48 bitrate=1535.2kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   10150kB time=00:00:54.16 bitrate=1535.2kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   10278kB time=00:00:54.84 bitrate=1535.2kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   10405kB time=00:00:55.52 bitrate=1535.3kbits/s speed=1.03x    
+[yt-dlp Stderr] 
+[download]  38.5% of    2.96MiB at   21.48KiB/s ETA 01:26
+[yt-dlp Stderr] 
+[download]  39.1% of    2.96MiB at   21.77KiB/s ETA 01:24
+[yt-dlp Stderr] 
+[download]  40.1% of    2.96MiB at   22.36KiB/s ETA 01:21
+[FFMPEG Stderr] size=   10533kB time=00:00:56.20 bitrate=1535.3kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   10664kB time=00:00:56.90 bitrate=1535.3kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   10791kB time=00:00:57.58 bitrate=1535.3kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   10919kB time=00:00:58.26 bitrate=1535.3kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   11046kB time=00:00:58.94 bitrate=1535.3kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   11174kB time=00:00:59.62 bitrate=1535.3kbits/s speed=1.03x    
+[yt-dlp Stderr] 
+[download]  42.2% of    2.96MiB at   22.02KiB/s ETA 01:19
+[FFMPEG Stderr] size=   11301kB time=00:01:00.30 bitrate=1535.3kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   11429kB time=00:01:00.98 bitrate=1535.3kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   11560kB time=00:01:01.68 bitrate=1535.3kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   11688kB time=00:01:02.36 bitrate=1535.3kbits/s speed=1.03x    
+[FFMPEG Stderr] size=   11815kB time=00:01:03.04 bitrate=1535.3kbits/s speed=1.03x    
+[yt-dlp Stderr] 
+[download]  43.3% of    2.96MiB at   21.20KiB/s ETA 01:21
+[yt-dlp Stderr] 
+[download]  43.8% of    2.96MiB at   21.46KiB/s ETA 01:19
+[FFMPEG Stderr] size=   11943kB time=00:01:03.72 bitrate=1535.3kbits/s speed=1.02x    
+[FFMPEG Stderr] size=   12070kB time=00:01:04.40 bitrate=1535.4kbits/s speed=1.02x    
+[FFMPEG Stderr] size=   12198kB time=00:01:05.08 bitrate=1535.4kbits/s speed=1.02x    

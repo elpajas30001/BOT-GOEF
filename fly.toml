@@ -1,0 +1,18 @@
+[app]
+name = "discord-bot-reyescdr2"
+primary_region = "iad"
+# Replace with your preferred region
+
+[build]
+  builder = "Dockerfile"
+
+[env]
+  DISCORD_TOKEN = "INSERT_YOUR_TOKEN_HERE"
+  APP_ID = "INSERT_YOUR_APP_ID_HERE"
+  PUBLIC_KEY = "INSERT_YOUR_PUBLIC_KEY_HERE"
+  RULE34_USER_ID = "INSERT_YOUR_USER_ID_HERE"
+  RULE34_API_KEY = "INSERT_YOUR_API_KEY_HERE"
+  NODE_ENV = "production"
+
+[processes]
+  app = "node index.js"
